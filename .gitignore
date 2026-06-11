@@ -1,0 +1,34 @@
+# Secrets — never commit these
+.env
+.env.*
+*.key
+*-key.json
+service-account*.json
+credentials.json
+gcp-*.json
+.claude/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Build / logs
+dist/
+build/
+*.log
